@@ -1,0 +1,89 @@
+body{
+    background-color: wheat;
+}
+.container{
+    
+    max-width: 700px;
+    margin: 50px auto;
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+.container-h1{
+    display: flex;
+    justify-content: center;
+    max-width: 500px;
+    margin: 50px auto;
+}
+.formulario{
+    font-size: 1.2rem;
+    color: rgb(0, 0, 0);
+}
+/*BOTÃO*/
+#formulario{
+    margin-top: 30px;
+}
+#ano{
+    margin-top: 20px;
+}
+#botao{
+    
+    display: flex;
+    justify-content: start;
+    margin: 15px;
+}
+.btn{
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+#p1{
+    margin-top: 55px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+/*IMAGEM*/
+
+#img{
+
+border-radius: 5px;
+background-position: center;
+background-size: cover;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#aviso{
+    font-size: 1.5rem;
+    color: red;
+    font-weight: 600;
+}
+#resposta{
+    display: flex;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+
+
+
+/*FOOTER*/
+footer{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    transform: scale(1.1);
+    color: black;
+}
